@@ -1,8 +1,5 @@
-# Function makeCacheMatrix looks for the cache, 
-# Steps:
-# 1. Check if the result is computed and stored in M
-# 2. If not initialize NULL
-# 3. define the getters and setters of 
+# Function makeCacheMatrix looks for the cache
+# And Define the getters and setters 
 
 makeCacheMatrix <- function(x = matrix()) {
   if(!exists("m")){
